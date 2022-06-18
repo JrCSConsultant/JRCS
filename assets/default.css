@@ -15,6 +15,11 @@ aside {
   overflow: hidden;
 }
 
+#resp-menu-checkbox {
+  position: absolute;
+  left: -9999px;
+}
+
 @media (max-width: 575.98px) {
   aside {
     width: 0;
