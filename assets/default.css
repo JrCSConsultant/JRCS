@@ -1,0 +1,18 @@
+:root {
+  
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+@media (max-width: 575.98px) {
+  aside {
+    display: none;
+  }
+}
