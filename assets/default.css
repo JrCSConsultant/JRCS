@@ -15,13 +15,23 @@ aside {
   overflow: hidden;
 }
 
-#resp-menu-checkbox {
-  position: absolute;
-  left: -9999px;
+#resp-menu-checkbox, #resp-menu-icon {
+  display: none;
 }
 
 @media (max-width: 575.98px) {
   aside {
     width: 0;
+  }
+  
+  #resp-menu-checkbox {
+    position: absolute;
+    left: -9999px;
+    transition: width ease-out .25s;
+  }
+  
+  #resp-menu-checkbox:checked ~ aside {
+    width: 10vh;
+    transition: width ease-in .25s;
   }
 }
