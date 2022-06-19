@@ -34,4 +34,10 @@ aside {
     width: 10vh;
     transition: width ease-in .25s;
   }
+  
+  #resp-menu-icon {
+    display: block;
+    margin: 10px;
+    font-soze: 18px;
+  }
 }
