@@ -39,6 +39,7 @@ aside {
   aside > ul {
     padding-left: 0;
     margin: 0;
+    margin-top: 28px;
   }
   
   aside > ul > li {
@@ -65,6 +66,7 @@ aside {
   #resp-menu-icon {
     display: block;
     margin: 10px;
-    font-soze: 18px;
+    font-size: 18px;
+    position: absolute;
   }
 }
