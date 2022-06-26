@@ -22,6 +22,8 @@ aside {
 @media (max-width: 575.98px) {
   aside {
     width: 0;
+    height: 100vh;
+    overflow: hidden;
   }
   
   #resp-menu-checkbox {
