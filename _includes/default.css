@@ -33,7 +33,7 @@ aside {
   }
   
   #resp-menu-checkbox:checked ~ aside {
-    width: 10vh;
+    width: 100vw;
     transition: width ease-in .25s;
   }
   
