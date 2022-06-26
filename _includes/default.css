@@ -26,6 +26,10 @@ aside {
     overflow: hidden;
   }
   
+  aside > ul {
+    padding-left: 0;
+  }
+  
   aside ~ li {
     width: 100vw;
     text-align: center;
