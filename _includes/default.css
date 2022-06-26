@@ -30,7 +30,7 @@ aside {
     padding-left: 0;
   }
   
-  aside ~ a {
+  aside > ul > li > a {
     width: 100vw;
     text-align: center;
     padding: 0 10px;
