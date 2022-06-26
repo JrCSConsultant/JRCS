@@ -15,6 +15,10 @@ aside {
   overflow: hidden;
 }
 
+.close {
+  display: none;
+}
+
 #resp-menu-checkbox, #resp-menu-icon {
   display: none;
 }
@@ -29,6 +33,7 @@ aside {
     height: 100vh;
     overflow: hidden;
     position: absolute;
+    background-color: #fff;
   }
   
   aside > ul {
