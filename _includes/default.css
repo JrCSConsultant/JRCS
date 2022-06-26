@@ -28,6 +28,7 @@ aside {
     width: 0;
     height: 100vh;
     overflow: hidden;
+    position: absolute;
   }
   
   aside > ul {
@@ -42,6 +43,7 @@ aside {
   
   aside > ul > li > a {
     width: 100vw;
+    color: #000;
   }
   
   #resp-menu-checkbox {
