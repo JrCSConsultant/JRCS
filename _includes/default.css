@@ -20,6 +20,10 @@ aside {
 }
 
 @media (max-width: 575.98px) {
+  * {
+    font-size: 20px;
+  }
+  
   aside {
     width: 0;
     height: 100vh;
@@ -32,11 +36,11 @@ aside {
   
   aside > ul > li {
     text-align: center;
+    padding: 10px 0;
   }
   
   aside > ul > li > a {
     width: 100vw;
-    padding: 10px 0;
   }
   
   #resp-menu-checkbox {
